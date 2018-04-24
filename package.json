@@ -1,6 +1,6 @@
 {
   "name": "parsingtables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "computes the LL(1) and the LR(1) parsing tables ",
   "main": "src/index.js",
   "dependencies": {
