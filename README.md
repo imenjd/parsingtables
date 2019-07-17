@@ -1,10 +1,17 @@
+
+![npm total downloads](https://img.shields.io/npm/dt/parsingtables.svg?color=informational)
+![npm yearly downloads](https://img.shields.io/npm/dy/parsingtables.svg?color=red)
+![npm monthly downloads](https://img.shields.io/npm/dm/parsingtables.svg?color=yellow)
+![npm weekly downloads](https://img.shields.io/npm/dw/parsingtables.svg?color=9cf)
+
+
 # **_parsingtables_**
 npm package that should compute the LL(1) parsing table and the LR(0) parsing table.
 (for the moment only the LL(1) table will be computed)
 
 # **_Installing_**
 
-`var table = require('parsingtables');`
+`const table = require('parsingtables');`
 
 then run:
 
@@ -29,7 +36,7 @@ then run:
 # **_Output_**
 
 
-`{ S: { b: [ 'S->bT' ] },
+`{ S: { b: [ 'S->bT' ] }, 
   T: { a: [ 'T->Ab' ], c: [ 'T->Ab' ], b: [ 'T->Ba' ] },
   A: { a: [ 'A->aS' ], c: [ 'A->CB' ] },
   B: { b: [ 'B->bD' ] },
